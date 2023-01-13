@@ -3,7 +3,6 @@ input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Rabbit)
 })
 input.onButtonPressed(Button.B, function () {
-    let sprite: game.LedSprite = null
-    sprite.set(LedSpriteProperty.X, 0)
+    music.playMelody("E B C5 A B G A F ", 304)
 })
 basic.showIcon(IconNames.Ghost)
