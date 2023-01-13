@@ -7,4 +7,5 @@ input.onButtonPressed(Button.B, function () {
         music.playMelody("E B C5 A B G A F ", 120)
     }
 })
+music.setVolume(255)
 basic.showIcon(IconNames.Ghost)
